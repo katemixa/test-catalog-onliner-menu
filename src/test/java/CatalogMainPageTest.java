@@ -1,56 +1,55 @@
-import catalog_main_page_object.CatalogMainPage;
 import org.junit.Assert;
 import org.junit.Test;
 
 public class CatalogMainPageTest extends Settings {
 
     @Test
-    public void testElectronicsMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainPage.electronicsMenuItemIsDisplayed());
+    public void isMenuItemElectronicsDisplayed() {
+        Assert.assertTrue(catalogMainPage.isElectronicsMenuItemDisplayed());
     }
 
     @Test
-    public void testComputersMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainPage.computersMenuItemIsDisplayed());
+    public void isMenuItemComputersDisplayed() {
+        Assert.assertTrue(catalogMainPage.isComputersMenuItemDisplayed());
     }
 
     @Test
-    public void testHouseholdAppliancesMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainPage.householdAppliancesMenuItemIsDisplayed());
+    public void isMenuItemHouseholdAppliancesDisplayed() {
+        Assert.assertTrue(catalogMainPage.isHouseholdAppliancesMenuItemDisplayed());
     }
 
     @Test
-    public void testBuildsMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainPage.buildsMenuItemIsDisplayed());
+    public void isMenuItemBuildsDisplayed() {
+        Assert.assertTrue(catalogMainPage.isBuildsMenuItemDisplayed());
     }
 
     @Test
-    public void testHomeAndGardenMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainPage.homeAndGardenMenuItemIsDisplayed());
+    public void isMenuItemHomeAndGardenDisplayed() {
+        Assert.assertTrue(catalogMainPage.isHomeAndGardenMenuItemDisplayed());
     }
 
     @Test
-    public void testAutoAndMotoMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainPage.autoAndMotoMenuItemIsDisplayed());
+    public void isMenuItemAutoAndMotoDisplayed() {
+        Assert.assertTrue(catalogMainPage.isAutoAndMotoMenuItemDisplayed());
     }
 
     @Test
-    public void testBeautyAndSportMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainPage.beautyAndSportMenuItemIsDisplayed());
+    public void isMenuItemBeautyAndSportDisplayed() {
+        Assert.assertTrue(catalogMainPage.isBeautyAndSportMenuItemDisplayed());
     }
 
     @Test
-    public void testChildrenMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainPage.childrenMenuItemIsDisplayed());
+    public void isMenuItemChildrenDisplayed() {
+        Assert.assertTrue(catalogMainPage.isChildrenMenuItemDisplayed());
     }
 
     @Test
-    public void testWorkAndOfficeMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainPage.workAndOfficeMenuItemIsDisplayed());
+    public void isMenuItemWorkAndOfficeDisplayed() {
+        Assert.assertTrue(catalogMainPage.isWorkAndOfficeMenuItemDisplayed());
     }
 
     @Test
-    public void testFoodMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainPage.foodMenuItemIsDisplayed());
+    public void isMenuItemFoodDisplayed() {
+        Assert.assertTrue(catalogMainPage.isFoodMenuItemDisplayed());
     }
 }

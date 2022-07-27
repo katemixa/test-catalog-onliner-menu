@@ -4,28 +4,28 @@ import org.junit.Test;
 public class CatalogMainMenuComputersTest extends Settings {
 
     @Test
-    public void testComputersSubmenuIsDisplayed() {
-        Assert.assertTrue(catalogMainMenuComputers.computersSubmenuIsDisplayed());
+    public void isSubmenuComputersDisplayed() {
+        Assert.assertTrue(catalogMainMenuComputers.IsSubmenuItemsComputersDisplayed());
     }
 
     @Test
-    public void testComputersMenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainMenuComputers.computersSubmenuItemIsDisplayed());
+    public void isSubmenuItemNotebooksDisplayed() {
+        Assert.assertTrue(catalogMainMenuComputers.isSubmenuItemNotebooksDisplayed());
     }
 
     @Test
-    public void testCompAccessoriesSubSubmenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainMenuComputers.compAccessoriesSubSubmenuItemIsDisplayed());
+    public void isSubmenuItemCompAccessoriesDisplayed() {
+        Assert.assertTrue(catalogMainMenuComputers.isSubmenuItemCompAccessoriesDisplayed());
     }
 
     @Test
-    public void testStorageSubmenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainMenuComputers.storageSubmenuItemIsDisplayed());
+    public void isSubmenuItemStorageDisplayed() {
+        Assert.assertTrue(catalogMainMenuComputers.isSubmenuItemStorageDisplayed());
     }
 
     @Test
-    public void testNetworkHardwareSubmenuItemIsDisplayed() {
-        Assert.assertTrue(catalogMainMenuComputers.networkHardwareSubmenuItemIsDisplayed());
+    public void isSubmenuItemNetworkHardwareDisplayed() {
+        Assert.assertTrue(catalogMainMenuComputers.isSubmenuItemNetworkHardwareDisplayed());
     }
 
 
